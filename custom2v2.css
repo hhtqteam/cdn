@@ -1,0 +1,65 @@
+/* Styles for links-backup container */
+#links-backup {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Styles for btn3dsv elements */
+.btn3dsv {
+    margin: 1px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 3px 3px 2px 2px;
+    outline: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1.2;
+    background-color: #6ccd26;
+    transition: .2s;
+}
+
+/* Active state for btn3dsv */
+.btn3dsv.active {
+    color: #fff;
+    background-color: #ab7a32;
+}
+
+/* Hover state for btn3dsv */
+.btn3dsv:hover {
+    background-color: #e87d7f;
+    color: #702526;
+}
+
+/* General link styling */
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+/* Box-sizing rules */
+*, :before, :after {
+    box-sizing: inherit;
+}
+
+/* Scrollbar styling */
+@media screen and (min-width: 62em) {
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 8px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, .3);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #ab7a32;
+    }
+}
